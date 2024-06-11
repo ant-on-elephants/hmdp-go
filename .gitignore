@@ -1,0 +1,36 @@
+# idea
+.idea
+.idea/
+*.iml
+.DS_Store
+**/.DS_Store
+
+# deploy data
+data
+data/*
+
+# verder data
+vendor/
+
+# log data
+logs
+logs/*
+
+# gitlab ci
+.cache
+
+# vscode
+.vscode
+.vscode/
+
+# 临时文件
+*.tmp
+
+# 忽略包含关键词 "log" 的文件
+**/*.log
+
+# 忽略文件夹名包含关键词 "log"
+**/log/
+
+#下载目录
+common/base_util/download/
